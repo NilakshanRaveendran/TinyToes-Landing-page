@@ -24,6 +24,9 @@ const About = () => {
             <img src={image4} alt="image1" className='image2'/>
             <img src={image5} alt="image1" className='image2'/>
           </div>
+          <div>
+            <p>hi</p>
+          </div>
         </div>
       </div>
     </div>
