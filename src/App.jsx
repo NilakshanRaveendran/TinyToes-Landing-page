@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Component/Navbar';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './Component/Home';
+import Footer from './Component/Footer';
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
               <Route path = "/" element = {<Home/>}/>
             </Routes>
           </div>
+          <Footer />
         </div>
       </Router>
   )
