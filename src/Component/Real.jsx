@@ -18,7 +18,7 @@ const Real = () => {
                       Easily find daycare centres with our intuitive app. Simply input your location, and we'll display nearby options with ratings, reviews, and availability. Streamline your search, save favourites, and even schedule visits all in one place. Take the hassle out of daycare hunting with our convenient solution.Simplify your search and find the perfect daycare for your child with ease.
                     </p>
 
-                    <button class="button2">Learn more</button>
+                    <button class="button">Learn more</button>
                   </div>
           </div>
             

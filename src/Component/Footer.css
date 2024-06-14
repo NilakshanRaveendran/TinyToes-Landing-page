@@ -87,8 +87,8 @@ input::placeholder {
     align-items: center; /* Aligns items vertically in the center */
     justify-content: flex-end; /* Adjusts spacing between items */
     margin-left: auto;
-    width: 600px;
   }
+  
 .icon {
     margin: 5px; /* Adds some space around each icon */
     padding: 0 0 0 20px;

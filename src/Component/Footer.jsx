@@ -43,7 +43,7 @@ const Footer = () => {
                         <p>Join our mailing list for the latest updates and news. </p>
                         <p className='box'>
                             <input type="search" name="" id="subscribe" placeholder='Enter email address'/>
-                            <button class="button">Sign up</button>
+                            <button class="button">Subscribe</button>
                         </p>
                         <p>By subscribing, you agree to our Privacy policy and consent to receive updates. </p>
                     </div>
@@ -64,11 +64,11 @@ const Footer = () => {
                         <u>Cookies</u>
                     </p>
                         <div className="icon-container">
-                        <img src={a1} alt="1" className='icon'/>
-                        <img src={a2} alt="2" className='icon'/>
-                        <img src={a3} alt="3" className='icon'/>
-                        <img src={a4} alt="4" className='icon'/>
-                        <img src={a5} alt="5" className='icon'/>
+                            <img src={a1} alt="1" className='icon'/>
+                            <img src={a2} alt="2" className='icon'/>
+                            <img src={a3} alt="3" className='icon'/>
+                            <img src={a4} alt="4" className='icon'/>
+                            <img src={a5} alt="5" className='icon'/>
                         </div> 
             </div>
             </div>

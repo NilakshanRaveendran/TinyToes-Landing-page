@@ -40,10 +40,6 @@ const Home = () => {
     <div className="faq-content">
       <Faq />
     </div>
-
-    <div className="footer">
-      <Footer />
-    </div>
     </>
   )
 }

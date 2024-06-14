@@ -49,26 +49,3 @@
     padding: 20px 0 0 0;
 
 }
-
-/*button */
-.button2 {
-    background: #6A41AE;
-    border-radius: 6px;
-    border: 2px solid transparent;
-  
-    text-shadow: 1px 1px 1px #00000040;
-    box-shadow: 8px 8px 20px 0px #9290C3;
-  
-    padding: 10px 20px;
-    line-height: 20px;
-    cursor: pointer;
-    transition: all 0.3s;
-    color: white;
-
-    margin-top: 20px;
-  }
-  
-.button2:hover {
-    box-shadow: none;
-    opacity: 80%;
-  }
