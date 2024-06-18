@@ -5,6 +5,7 @@ import Home from './Component/Home';
 import Footer from './Component/Footer';
 import Login from './Component/Login';
 import Parent from './Component/Parent';
+import OTP from './Component/OTP';
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
               <Route path = "/login" element = {<Login />}/>
               <Route path = "/parent" element = {<Parent />}/>
               <Route path = "/home" element = {<Home />}/>
+              <Route path = "/otp" element = {<OTP />}/>
             </Routes>
           </div>
           <Footer />

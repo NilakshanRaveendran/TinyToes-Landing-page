@@ -18,8 +18,8 @@ import { useNavigate } from 'react-router-dom'
 const Parent = () => {
 
   const navigate = useNavigate();
-    const buttonq = () => {
-      navigate('/home')
+    const otpButton = () => {
+      navigate('/otp')
     };
 
   
@@ -57,7 +57,7 @@ const Parent = () => {
             <h3>Your email or Phone number</h3>
             <input type="search" name="" id="subscribe" placeholder='Email or User name'/>
 
-            <button class="button">Login</button>
+            <button className="button" onClick={otpButton}>Login</button>
             <div className="or">
                 <hr />
                 <p>or</p>
@@ -67,7 +67,7 @@ const Parent = () => {
             <button className = 'sign-button'><img src={image2} alt=""/>Continue with Apple</button>
             <div className="parent3">
                 <p>Don't have an account?</p>
-                <p className = "signup" onClick={buttonq}>Sign up</p>
+                <p className = "signup">Sign up</p>
             </div>
         </div>
     </div>

@@ -43,7 +43,7 @@ const Footer = () => {
                         <p>Join our mailing list for the latest updates and news. </p>
                         <p className='box'>
                             <input type="search" name="" id="subscribe" placeholder='Enter email address'/>
-                            <button class="button">Subscribe</button>
+                            <button className="button">Subscribe</button>
                         </p>
                         <p>By subscribing, you agree to our Privacy policy and consent to receive updates. </p>
                     </div>
