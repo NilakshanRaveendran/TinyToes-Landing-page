@@ -48,6 +48,8 @@ const Footer = () => {
                         <p>By subscribing, you agree to our Privacy policy and consent to receive updates. </p>
                     </div>
             </div>
+
+            
             <div className="right">
                 <hr />
                 <div className="arrange">

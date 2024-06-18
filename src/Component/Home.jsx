@@ -6,7 +6,6 @@ import Whywe from './Whywe'
 import Real from './Real'
 import Update from './Update'
 import Faq from './Faqs'
-import Footer from './Footer'
 
 
 const Home = () => {

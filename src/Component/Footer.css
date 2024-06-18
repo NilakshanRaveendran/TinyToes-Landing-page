@@ -30,12 +30,7 @@
     padding: 20px;
 }
 
-#subscribe {
-    width: 280px;
-    padding: 10px;
-    border: 1px solid #6A41AE;
-    border-radius: 5px;
-}
+
 
 input::placeholder {
   color: #6A41AE; /* Color of the placeholder text */
@@ -92,4 +87,5 @@ input::placeholder {
 .icon {
     margin: 5px; /* Adds some space around each icon */
     padding: 0 0 0 20px;
+    width: 30px;
 }
