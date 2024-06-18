@@ -56,17 +56,6 @@ const OTP = () => {
               </div>
 
               <button className="button">Login</button>
-              <div className="or">
-                  <hr />
-                  <p>or</p>
-                  <hr />
-              </div>
-              <button className='sign-button'><img src={image3} alt="" />Continue with Google</button>
-              <button className='sign-button'><img src={image2} alt="" />Continue with Apple</button>
-                <div className="otp3">
-                  <p>Don't have an account?</p>
-                  <p className="signup">Sign up</p>
-                </div>
           </div>
     </div>
   )
