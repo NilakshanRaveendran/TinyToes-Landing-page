@@ -141,3 +141,32 @@
 .img-marquee img{
     height: 200px;
 }
+
+.otp .otp2 .otpCode input{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.otp .otp2 .resend-container {
+    display: flex;
+    padding-top: 10px;
+}
+
+.otp .otp2 .menu {
+    align-items: end;
+    justify-content: end;
+    text-align: end;
+    margin: auto;
+    width: 200px;
+
+}
+
+
+.otp .otp2 .resend-container p {
+    color: #6A41AE;
+    text-decoration: underline;
+    cursor: pointer;
+}

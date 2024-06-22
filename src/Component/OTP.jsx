@@ -48,14 +48,19 @@ const OTP = () => {
         <div className="otp2">
               <h3>Verification code</h3>
               <div className="otpCode">
-                <input type="text" name="" className='subscribe' maxLength={1}/>
-                <input type="text" name="" className='subscribe' maxLength={1}/>
-                <input type="text" name="" className='subscribe' maxLength={1}/>
-                <input type="text" name="" className='subscribe' maxLength={1}/>
-                <input type="text" name="" className='subscribe' maxLength={1}/>
+                <input type="text" name="" className='subscribe' maxLength={1} required/>
+                <input type="text" name="" className='subscribe' maxLength={1} required/>
+                <input type="text" name="" className='subscribe' maxLength={1} required/>
+                <input type="text" name="" className='subscribe' maxLength={1} required/>
+                <input type="text" name="" className='subscribe' maxLength={1} required/>
               </div>
 
               <button className="button">Login</button>
+
+              <div className="resend-container">
+                <p className="resend">Resend</p>
+                <p className="menu">Go to menu</p>
+              </div>
           </div>
     </div>
   )
