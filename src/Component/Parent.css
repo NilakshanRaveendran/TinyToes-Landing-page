@@ -112,6 +112,15 @@
     cursor: pointer;
 }
 
+
 .img-marquee img{
     height: 200px;
+}
+
+.parent .parent2 #subscribe {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+
+    margin-bottom: 10px;
 }

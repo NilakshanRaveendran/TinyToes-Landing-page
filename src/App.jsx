@@ -6,6 +6,7 @@ import Footer from './Component/Footer';
 import Login from './Component/Login';
 import Parent from './Component/Parent';
 import OTP from './Component/OTP';
+import CreateAccount from './Component/CreateAccount';
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
               <Route path = "/parent" element = {<Parent />}/>
               <Route path = "/home" element = {<Home />}/>
               <Route path = "/otp" element = {<OTP />}/>
+              <Route path = "/CreateAccount" element = {<CreateAccount />}/>
             </Routes>
           </div>
           <Footer />

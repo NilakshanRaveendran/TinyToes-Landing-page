@@ -64,10 +64,11 @@ const Login = () => {
             
             <div className="sign">
               <div className="buttons">
-                  <h2>Sign up</h2>
+                  <h2>Login or Signup</h2>
                     <button className='button' onClick={buttonClick}>as Parent</button>
                     <button className='button'>as Attendant</button>
                     <button className='button'>as Daycare Admin</button>
+                    <button className='button'>as Service Provider</button>
               </div>
             </div>
         </div>

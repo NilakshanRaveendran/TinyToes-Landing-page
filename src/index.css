@@ -38,3 +38,8 @@
   border: 1px solid #6A41AE;
   border-radius: 5px;
 }
+
+
+.marquee {
+  z-index: 0;
+}
